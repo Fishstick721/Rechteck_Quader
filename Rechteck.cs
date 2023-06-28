@@ -1,34 +1,41 @@
-﻿using System;
-using System.Security.Cryptography.X509Certificates;
-
-public class Rechteck
+﻿public class Rechteck
 {
     private double _länge;
-
-    public double länge
-    {
-        get { return _länge; }
-        set { länge = _länge; }
-    }
-
     private double _breite;
 
-
-    public double breite
+    public double Länge
     {
-        get { return _breite; }
-        set { breite = _breite; }
+        get { return _länge; }
+        set { _länge = value; }
     }
 
-}
-public class Rechteck()
+    public double Breite
     {
+        get { return _breite; }
+        set { _breite = value; }
+    }
 
-    { 
-        public class Rechteck
-{
-    länge = _länge;
-        breite = _breite;
-}
+   
+    public Rechteck()
+    {
+        _länge = 0;
+        _breite = 0;
+    }
 
+   
+    public Rechteck(double länge, double breite)
+    {
+        _länge = länge;
+        _breite = breite;
+    }
+
+    public double Fläche()
+    {
+        return _länge * _breite;
+    }
+
+    public double Umfang()
+    {
+        return 2 * (_länge + _breite);
+    }
 }
