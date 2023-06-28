@@ -1,8 +1,18 @@
 ﻿using System;
 
-public class Class1
+public class Rechteck
 {
-	public Class1()
-	{
-	}
+    private double length;
+
+    public double Length
+    {
+        get { return length; }
+        set { length = value; }
+    }
+}
+public class Rechteck()
+    {
+
+}
+
 }
