@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 public class Rechteck
 {
@@ -23,6 +24,11 @@ public class Rechteck
 public class Rechteck()
     {
 
+    { 
+        public class Rechteck
+{
+    länge = _länge;
+        breite = _breite;
 }
 
 }
